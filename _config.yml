@@ -41,8 +41,8 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
-    theme                : "github-light" (default), "github-dark"
-    issue_term           : "pathname" (default)
+    theme                : "github-light" # (default), "github-dark"
+    issue_term           : "pathname" # (default)
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -82,6 +82,8 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.facebook.com/wonyeong.jang.9"
+    - "https://www.instagram.com/"
 
 # Analytics
 analytics:
