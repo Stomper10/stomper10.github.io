@@ -1,5 +1,5 @@
 ---
-title:  "My first post"
+title:  "My First Post"
 excerpt: "This is my first post on Github.io page."
 
 categories:
