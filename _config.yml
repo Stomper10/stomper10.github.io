@@ -282,3 +282,6 @@ defaults:
       share: true
       related: true
       show_date: true
+
+#languages
+languages: ["ko", "en"]
