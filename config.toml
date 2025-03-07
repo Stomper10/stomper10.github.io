@@ -1,0 +1,5 @@
+baseURL = "https://stomper10.github.io/"
+languageCode = "en-us"
+title = "My Hugo Blog"
+theme = "ananke"
+publishDir = "public"
