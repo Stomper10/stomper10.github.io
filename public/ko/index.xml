@@ -2,10 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>내 휴고 블로그</title>
-    <link>http://localhost:1313/ko/</link>
+    <link>//localhost:1313/ko/</link>
     <description>Recent content on 내 휴고 블로그</description>
     <generator>Hugo</generator>
     <language>ko</language>
-    <atom:link href="http://localhost:1313/ko/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="//localhost:1313/ko/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
