@@ -3,6 +3,16 @@ languageCode = "en-us"
 title = "My Hugo Blog"
 theme = "ananke"
 publishDir = "public"
+contentDir = "content"
+
+defaultContentLanguage = "en"
+[languages]
+  [languages.en]
+    title = "My Hugo Blog"
+    weight = 1
+  [languages.ko]
+    title = "내 휴고 블로그"
+    weight = 2
 
 [outputs]
 home = ["HTML", "RSS"]
