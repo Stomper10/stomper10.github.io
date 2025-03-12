@@ -2,54 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/</loc>
+    <loc>https://stomper10.github.io/en/</loc>
     <lastmod>2025-03-12T12:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="//localhost:1313/ko/"
+                href="https://stomper10.github.io/ko/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/"
+                href="https://stomper10.github.io/en/"
                 />
   </url><url>
-    <loc>//localhost:1313/posts/</loc>
+    <loc>https://stomper10.github.io/en/posts/</loc>
     <lastmod>2025-03-12T12:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="//localhost:1313/ko/posts/"
+                href="https://stomper10.github.io/ko/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/posts/"
+                href="https://stomper10.github.io/en/posts/"
                 />
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>https://stomper10.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="//localhost:1313/ko/categories/"
+                href="https://stomper10.github.io/ko/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/categories/"
+                href="https://stomper10.github.io/en/categories/"
                 />
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>https://stomper10.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="//localhost:1313/ko/tags/"
+                href="https://stomper10.github.io/ko/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/tags/"
+                href="https://stomper10.github.io/en/tags/"
                 />
   </url>
 </urlset>

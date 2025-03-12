@@ -4,24 +4,31 @@ title = "My Hugo Blog"
 theme = "ananke"
 publishDir = "public"
 contentDir = "content"
-
 defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
     title = "My Hugo Blog"
     weight = 1
     languageName = "English"
-    contentDir = "content/en" # ← 🚨 추가!
+    contentDir = "content/en"
 
   [languages.ko]
     title = "내 휴고 블로그"
     weight = 2
     languageName = "한국어"
-    contentDir = "content/ko" # ← 🚨 추가!
+    contentDir = "content/ko"
 
 [outputs]
 home = ["HTML", "RSS"]
 page = ["HTML"]
 section = ["HTML", "RSS"]
 taxonomy = ["HTML", "RSS"]
+
+[permalinks]
+  posts = "/posts/:slug/"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
