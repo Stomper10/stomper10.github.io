@@ -13,7 +13,7 @@
       <link>https://stomper10.github.io/ko/posts/hello-world/</link>
       <pubDate>Wed, 12 Mar 2025 15:42:01 +0900</pubDate>
       <guid>https://stomper10.github.io/ko/posts/hello-world/</guid>
-      <description>&lt;p&gt;블로그 첫 글이다.&#xA;첫 글 제목으로 &amp;ldquo;Hello, World!&amp;ldquo;만큼 적절한 건 없지 않을까.&lt;/p&gt;</description>
+      <description>&lt;p&gt;블로그 첫 글이다.&lt;/p&gt;&#xA;&lt;p&gt;첫 글 제목으로 &amp;ldquo;Hello, World!&amp;ldquo;만큼 적절한 건 없지 않을까.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
