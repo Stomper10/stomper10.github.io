@@ -32,3 +32,6 @@ taxonomy = ["HTML", "RSS"]
 [taxonomies]
   category = "categories"
   tag = "tags"
+
+[params]
+  custom_css = ["css/custom.css"]
