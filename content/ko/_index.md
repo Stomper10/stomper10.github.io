@@ -1,4 +1,6 @@
 +++
-title = '내 블로그에 오신 것을 환영합니다!'
+title = 'Welcome!'
 +++
-이것은 한국어 버전의 Hugo 블로그입니다.
+제 블로그의 한글 버전입니다.
+This is the Korean version of my blog.
+Click the 'en' button in the top right corner for the English version.

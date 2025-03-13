@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://stomper10.github.io/ko/posts/first-post/</loc>
+    <loc>https://stomper10.github.io/ko/posts/hello-world/</loc>
     <lastmod>2025-03-12T15:42:01+09:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://stomper10.github.io/en/posts/first-post/"
+                href="https://stomper10.github.io/en/posts/hello-world/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ko"
-                href="https://stomper10.github.io/ko/posts/first-post/"
+                href="https://stomper10.github.io/ko/posts/hello-world/"
                 />
   </url><url>
     <loc>https://stomper10.github.io/ko/</loc>

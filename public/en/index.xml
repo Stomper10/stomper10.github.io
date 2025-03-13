@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Welcome to My Blog! on My Hugo Blog</title>
+    <title>환영합니다! on Stomper&#39;s Blog</title>
     <link>https://stomper10.github.io/en/</link>
-    <description>Recent content in Welcome to My Blog! on My Hugo Blog</description>
+    <description>Recent content in 환영합니다! on Stomper&#39;s Blog</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 12 Mar 2025 15:41:49 +0900</lastBuildDate>
     <atom:link href="https://stomper10.github.io/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>https://stomper10.github.io/en/posts/first-post/</link>
+      <title>Hello, World</title>
+      <link>https://stomper10.github.io/en/posts/hello-world/</link>
       <pubDate>Wed, 12 Mar 2025 15:41:49 +0900</pubDate>
-      <guid>https://stomper10.github.io/en/posts/first-post/</guid>
-      <description>&lt;p&gt;This is a test post for local preview.&lt;/p&gt;</description>
+      <guid>https://stomper10.github.io/en/posts/hello-world/</guid>
+      <description>&lt;p&gt;This is the first post on my blog.&#xA;&amp;ldquo;Hello, World!&amp;rdquo; is the perfect title for a first post.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

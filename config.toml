@@ -1,6 +1,6 @@
 baseURL = "https://stomper10.github.io/"
 languageCode = "en-us"
-title = "My Hugo Blog"
+title = "Stomper"
 theme = "ananke"
 publishDir = "public"
 contentDir = "content"
@@ -9,13 +9,13 @@ defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
-    title = "My Hugo Blog"
+    title = "Stomper's Blog"
     weight = 1
     languageName = "English"
     contentDir = "content/en"
 
   [languages.ko]
-    title = "내 휴고 블로그"
+    title = "Stomper 블로그"
     weight = 2
     languageName = "한국어"
     contentDir = "content/ko"
