@@ -5,3 +5,36 @@ html[lang="ko"] body, html[lang="ko"] * {
 html[lang="en"] body, html[lang="en"] * {
     font-family: "Avenir Next", Avenir, sans-serif !important;
 }
+
+/* 기본 라이트 모드 */
+html, body {
+    background-color: #ffffff !important;
+    color: #333 !important;
+    transition: background-color;
+}
+
+/* 다크 모드 (Ananke 테마보다 강하게 덮어쓰기) */
+html.dark-mode body,
+body.dark-mode {
+    background-color: #121212 !important;
+    color: #ffffff !important;
+}
+
+/* 다크 모드 - 네비게이션 바 */
+html.dark-mode .site-header, 
+body.dark-mode .site-header {
+    background-color: #1f1f1f !important;
+}
+
+/* 다크 모드 - 링크 색상 */
+html.dark-mode a, 
+body.dark-mode a {
+    color: #bb86fc !important;
+}
+
+/* 테마에서 강제 적용하는 모든 요소에 대해 !important 적용 */
+html.dark-mode body *,
+body.dark-mode * {
+    background-color: transparent !important;
+    color: inherit !important;
+}
