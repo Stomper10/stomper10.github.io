@@ -35,3 +35,7 @@ taxonomy = ["HTML", "RSS"]
 
 [params]
   custom_css = ["css/custom.css"]
+  disqus_developer = true
+
+[services.disqus]
+  shortname = 'stomper10'
