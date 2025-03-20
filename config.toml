@@ -36,7 +36,7 @@ taxonomy = ["HTML", "RSS"]
 [params]
   custom_css = ["css/custom.css"]
   disqus_developer = true
-  featured_image = ["images/cover.jpg"]
+  featured_image = "images/cover.jpg"
 
 [services.disqus]
   shortname = 'stomper10'
