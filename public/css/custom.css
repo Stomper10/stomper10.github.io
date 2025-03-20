@@ -22,12 +22,16 @@ body.dark-mode {
 }
 
 /* 🚀 헤더 배경 이미지 유지 (덮어쓰기 방지) */
-html.dark-mode header, 
-body.dark-mode header {
-    background-image: inherit !important;  /* 기존 배경 이미지 유지 */
+header {
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
+}
+
+/* 🚀 다크 모드에서도 헤더 배경이 유지되도록 설정 */
+html.dark-mode header, 
+body.dark-mode header {
+    background-image: var(--header-bg) !important;
 }
 
 /* 다크 모드 - 네비게이션 바 */
