@@ -1,5 +1,6 @@
 +++
 title = 'Welcome!'
+featured_image = "/images/cover.jpg"
 +++
 This is the English version of my blog.  
 제 블로그의 영문 버전입니다.  

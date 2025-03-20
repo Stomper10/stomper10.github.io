@@ -1,4 +1,3 @@
-/* 다국어 폰트 설정 */
 html[lang="ko"] body, html[lang="ko"] * {
     font-family: "Noto Sans KR", sans-serif !important;
 }
@@ -11,7 +10,7 @@ html[lang="en"] body, html[lang="en"] * {
 html, body {
     background-color: #ffffff !important;
     color: #333 !important;
-    transition: background-color 0.3s ease-in-out;
+    transition: background-color;
 }
 
 /* 다크 모드 (Ananke 테마보다 강하게 덮어쓰기) */
@@ -19,19 +18,6 @@ html.dark-mode body,
 body.dark-mode {
     background-color: #121212 !important;
     color: #ffffff !important;
-}
-
-/* 🚀 헤더 배경 이미지 유지 (덮어쓰기 방지) */
-header {
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-}
-
-/* 🚀 다크 모드에서도 헤더 배경이 유지되도록 설정 */
-html.dark-mode header, 
-body.dark-mode header {
-    background-image: var(--header-bg) !important;
 }
 
 /* 다크 모드 - 네비게이션 바 */
@@ -46,15 +32,14 @@ body.dark-mode a {
     color: #bb86fc !important;
 }
 
-/* 🚀 기존 요소 강제 투명화 방지 */
+/* 테마에서 강제 적용하는 모든 요소에 대해 !important 적용 */
 html.dark-mode body *,
 body.dark-mode * {
     background-color: transparent !important;
     color: inherit !important;
 }
 
-/* 🚀 다크 모드일 때도 헤더 배경이 날아가지 않도록 예외 처리 */
-html.dark-mode .cover,
-body.dark-mode .cover {
-    background-color: unset !important;
+html.dark-mode .cover .bg-black-60,
+body.dark-mode .cover .bg-black-60 {
+    background: rgba(0, 0, 0, 0.6) !important; /* 어두운 필터 강제 적용 */
 }
